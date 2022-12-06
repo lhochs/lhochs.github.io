@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ==================== Nav Bar==================== */
+
+.nav-bar-items{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.name{
+    font-family: Tahoma, sans-serif;
+    font-size: 18pt;
+    padding: 14px 10px;
+}
+.nav-bar-items a{
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav_link{
+    padding: 20px 10px;
+}
+
+.nav_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2.2%;
+}
+#nav_items{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0% 5% 0% 2.2%;
+    align-items: center;
+}
+
+.nav_items a:link{
+    text-decoration: none;
+}
+.nav_items a:hover { 
+    background: #96AAB6;
+    color:white;
+}
+/* ==================== Website Body ==================== */
+#body{
+    margin: 0% 10% 0% 10%;
+}
+/* ==================== Welcome Text ==================== */
+.bgimage {
+    width: 100%;
+    max-width: 100vw;
+    height: 120%;
+    /* object-fit: scale-down; */
+    background: url("../imgs/lo_photo copy.JPG");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* text css above hero image*/
+.hero_title h1{
+    font-size: 5.5vw;
+    text-align: left;
+}
+.hero_title h2{
+    font-size: 5.5vw;
+    text-align: right;
+}
+.hero_desc {
+    font-size: 2.5vw;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* ==================== About Me ==================== */
+#about{
+    height: 100%;
+    border: 2px dotted red;
+}
+
+.container-about{
+    padding: 15% 10%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-title{
+
+}
+/* ==================== Projects ==================== */
+#projects{
+    height: 100%;
+    padding:15% 10% 15% 10%;
+    border: 2px dotted red;
+}
+
+.projects_title{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.project-view{
+    border: 2px dotted red;
+    display: flex;
+    padding: 2% 10%;
+    align-items: center;
+}
+.list-bar{
+    border: 2px dotted red;
+    text-align: right;
+    margin-right: 5%;
+    padding: 6% 1%;
+}
+.project_list{
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 4% 0%;
+}
+
+.project-title{
+
+}
+
+#projects img{
+    border: 2px dotted red;
+}
+/* ==================== Skills ==================== */
+
+/* ==================== Resume ==================== */
+
+/* ==================== Resume ==================== */
